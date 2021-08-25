@@ -5,7 +5,7 @@ class MergeArraySolution {
     public static void main(String[] args) {
         int[] nums1={};
         int[] nums2={2,3};
-        System.out.println(Arrays.toString(merge(nums1, 0, nums2, 2)));
+        System.out.println("Merged array is --> "+Arrays.toString(merge(nums1, 0, nums2, 2)));
         
     }
     public static int[] merge(int[] nums1, int m, int[] nums2, int n) {
